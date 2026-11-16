@@ -1,0 +1,39 @@
+# Secrets & Environment Variables
+.env
+.env.*
+!.env.example
+
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+
+# Go
+services/webhook-gateway/bin/
+*.exe
+*.test
+*.out
+
+# Node / React / Vite
+frontend/node_modules/
+frontend/dist/
+.DS_Store
+
+# Local Floci & Postgres persistent volumes
+.floci-data/
+.postgres-data/
